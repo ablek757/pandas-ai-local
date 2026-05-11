@@ -1,0 +1,16 @@
+date,product,region,units,price
+2024-01-05,Widget,North,12,9.5
+2024-01-12,Gadget,North,7,19.0
+2024-01-22,Widget,South,5,9.5
+2024-02-03,Gizmo,East,9,14.0
+2024-02-14,Widget,West,11,9.5
+2024-02-27,Gadget,South,4,19.0
+2024-03-08,Gizmo,North,6,14.0
+2024-03-15,Widget,East,8,9.5
+2024-03-29,Gadget,West,10,19.0
+2024-04-04,Gizmo,South,3,14.0
+2024-04-18,Widget,North,15,9.5
+2024-04-25,Gadget,East,6,19.0
+2024-05-06,Gizmo,West,5,14.0
+2024-05-19,Widget,South,9,9.5
+2024-05-30,Gadget,North,12,19.0

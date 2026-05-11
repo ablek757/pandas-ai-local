@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# venv
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# user data
+.nlda/
+sessions/
+*.sqlite
+*.db
+
+# notebooks
+.ipynb_checkpoints/
+
+# tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
