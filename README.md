@@ -1,5 +1,7 @@
 # pandas-ai-local
 
+> **English** · [中文](./README.zh.md)
+
 Natural-language driven automated data analysis.
 Upload a CSV / Excel / SQLite / MySQL table, ask a question in plain English (or 中文),
 and get pandas-powered answers, charts, and reports — backed by Claude, OpenAI, or a
