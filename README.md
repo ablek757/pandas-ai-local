@@ -68,7 +68,7 @@ Claude OpenAI Ollama  (extensible)
 ## Quick start
 
 ```bash
-git clone https://github.com/<you>/pandas-ai-local.git
+git clone https://github.com/ablek757/pandas-ai-local.git
 cd pandas-ai-local
 pip install -e .
 cp .env.example .env       # fill in keys you actually use
