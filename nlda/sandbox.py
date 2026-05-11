@@ -86,7 +86,10 @@ def run_code(
     timeout: float = 20.0,
 ) -> ExecResult:
     """Execute `code` against `dataframes` and capture stdout / figures / `result`."""
-    _static_check(code)
+    try:
+        _static_check(code)
+    except UnsafeCodeError as e:
+        return ExecResult(error=f"UnsafeCodeError: {e}")
 
     namespace: dict[str, Any] = {
         "pd": pd,
